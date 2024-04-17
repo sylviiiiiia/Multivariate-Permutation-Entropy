@@ -1,3 +1,12 @@
+/*
+Author:Sylvia
+Date:2023/12/14
+
+Input:Time series data, supports up to 10 channels, 10001 samples
+Output:The permutation entropy of each channel and Multivariate permutation entropy
+
+To use default data (signal01. txt, e=1, n=1000, m=3, d=2), please enter 0. To input data independently, please enter 1
+*/
 #include<iostream>
 #include<vector>
 #include<algorithm>
